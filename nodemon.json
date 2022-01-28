@@ -6,6 +6,6 @@
         "MYSQL_HOST":"sql719.main-hosting.eu",
         "MYSQL_PORT": 3306,
         "JWT_KEY":"chave_segredo",
-        "CLEARDB_DATABASE_URL":"mysql://u903973099_api_teste_bd:api_teste_BD_2021@sql719.main-hosting.eu/u903973099_api_teste_bd?reconnect=true"
+        "DATABASE_URL":"mysql://u903973099_api_teste_bd:api_teste_BD_2021@sql719.main-hosting.eu/u903973099_api_teste_bd?reconnect=true"
     }
 }
