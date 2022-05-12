@@ -47,7 +47,7 @@ exports.getProdutos = (req, res, next) => {
 
 exports.insereProduto = (req, res, next) => {
 
-    console.log(req.file);
+    print(req.path);
 
     /*const produto = {
         nome: req.body.nome,
@@ -56,6 +56,8 @@ exports.insereProduto = (req, res, next) => {
 
     mysql.getConnection((error, conn)=>{
         if (error){ return res.status(500).send({error:error})}
+
+        console.log('passeiiii');
 
         conn.query(
             'INSERT INTO produtos (nome, preco,imagem_produto) VALUES (?,?,?)',

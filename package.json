@@ -11,7 +11,7 @@
     "juventude",
     "node"
   ],
-  "author": "Everson Evo",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
